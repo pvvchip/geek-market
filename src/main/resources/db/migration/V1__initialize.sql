@@ -127,3 +127,28 @@ VALUES
 (1, "00000001", "null", "40\" Телевизор Samsung UE40NU7170U", "Коротко: Хороший телевизор Samsung 40", "LED телевизор Samsung 40", 26000.00),
 (1, "00000002", "null", "48\" Телевизор Samsung UE48NU7170U", "Коротко: Хороший телевизор Samsung 48", "LED телевизор Samsung 48", 32000.00),
 (1, "00000003", "null", "56\" Телевизор Samsung UE56NU7170U", "Коротко: Хороший телевизор Samsung 56", "LED телевизор Samsung 56", 44000.00);
+
+CREATE TABLE `geek_market`.`students` (
+  `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` VARCHAR(45) NOT NULL,
+  `point` INT);
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Petrov', '10');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov', '15');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Sidorv', '17');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov2', '18');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov3', '14');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov4', '12');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov5', '10');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov6', '15');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov7', '14');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov8', '15');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov9', '16');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov10', '15');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov11', '17');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov12', '18');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov13', '3');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov14', '5');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov15', '6');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov16', '17');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov17', '18');
+INSERT INTO `geek_market`.`students` (`name`, `point`) VALUES ('Ivanov18', '19');
